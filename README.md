@@ -1,7 +1,7 @@
-skeletonChromePolymerApp
+Chrome Polymer News
 ========================
 
-template for creating polymer chrome apps, based on one created by the chrome dev editor team
+A Chrome packaged app built on Polymer-project.
 
 
 # Polymer Chrome App
