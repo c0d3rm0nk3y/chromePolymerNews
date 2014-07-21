@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "skeletonChromePolymerApp",
+  "name": "Chrome News App",
   "description": "",
   "version": "0.0.1",
   "minimum_chrome_version": "23",
@@ -12,5 +12,6 @@
     "background": {
       "scripts": ["background.js"]
     }
-  }
+  },
+  "permissions" : [ "<all_urls>" ]
 }

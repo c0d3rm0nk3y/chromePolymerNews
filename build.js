@@ -2734,6 +2734,7 @@
         console.log('onNextArticle clicked..');
       },
       onGoogleNews: function() {
+        
         console.log('onGoogleNews clicked..');
       }
     });

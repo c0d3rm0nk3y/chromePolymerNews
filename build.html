@@ -2962,16 +2962,8 @@ root if there is one. This implies:
             <core-input placeholder="text input" id="core_input" flex=""></core-input>
           </core-field>
         </core-toolbar>
-        <core-menu selected="Item2" valueattr="label" id="core_menu" theme="core-light-theme">
-          </core-menu>
-        <core-menu selected="1" selectedindex="1" id="core_menu1">
-          <core-submenu label="News" icon="settings" valueattr="name" id="core_submenu">
-            <core-item label="Google News" size="24" on-tap="{{onGoogleNews}}" id="core_item" horizontal="" center="" layout=""></core-item>
-          </core-submenu>
-          <core-submenu active="" selected="0" label="Podcasts" icon="settings" valueattr="name" id="core_submenu1">
-            <core-item label="SGU" size="24" id="core_item2" horizontal="" center="" layout="" active=""></core-item>
-          </core-submenu>
-        </core-menu>
+        
+       <core-item label="Google News" icon="google" size="24" on-tap="{{onGoogleNews}}" id="core_item" horizontal="" center="" layout=""></core-item>
       </core-header-panel>
       <div id="div" tool="">Chrome News</div>
       <div id="card_container" center="" vertical="" layout="" center-justified="">
@@ -3001,7 +2993,7 @@ root if there is one. This implies:
   
 </head>
 
-<body>
+<body unresolved="" touch-action="auto">
   <x-news></x-news>
   <!--<h1 id="greeting"></h1>-->
   <!--<p>sudo emo buggy impto</p>-->
